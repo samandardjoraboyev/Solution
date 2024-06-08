@@ -63,7 +63,8 @@
               </p>
 
               <div class="rounded-full w-12 p-4 bg-slate-50 flex justify-start items-center">
-                <img class="" src="../assets/Icons/arrow.svg" alt="">
+              
+                <img class="bg-sky-100" src="../assets/Icons/arrow.svg" alt="">
               </div>
             </div>
             <img src="../assets/Icons/macbook.png" alt="" />
@@ -74,7 +75,7 @@
             <div>
               <img class="ml-10" src="../assets/Icons/paymart.png" alt="" />
 
-              <p class="text-2xl font-bold mt-10 mr-9">Cистема рассрочки</p>
+              <p class="text-2xl font-bold mt-10 mr-9">Маркетплейс товаров</p>
               <p class="flex mt-4">
                 Онлайн-система, предоставляющая<br />
                 своим пользователям возможность<br />
