@@ -45,7 +45,7 @@
       </p>
     </div>
     <div style="background: #F8F9F9" class="pt-28">
-      <div >
+      <div>
         <h1 class="flex  justify-center items-center font-bold text-4xl">Проекты</h1>
 
         <!--          card start-->
@@ -63,7 +63,7 @@
               </p>
 
               <div class="rounded-full w-12 p-4 bg-slate-50 flex justify-start items-center">
-              
+
                 <img class="bg-sky-100" src="../assets/Icons/arrow.svg" alt="">
               </div>
             </div>
@@ -95,6 +95,11 @@
 
       </div>
     </div>
+
+    <div class="flex justify-center my-10 ">
+      <img src="../assets/Icons/Frame%2055406.png" alt="">
+    </div>
+
   </main>
 </template>
 <script setup></script>
