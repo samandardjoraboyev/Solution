@@ -45,7 +45,7 @@
       </p>
     </div>
     <div style="background: #F8F9F9" class="pt-28">
-      <div >
+      <div>
         <h1 class="flex  justify-center items-center font-bold text-4xl">Проекты</h1>
 
         <!--          card start-->
@@ -63,7 +63,7 @@
               </p>
 
               <div class="rounded-full w-12 p-4 bg-slate-50 flex justify-start items-center">
-              
+
                 <img class="bg-sky-100" src="../assets/Icons/arrow.svg" alt="">
               </div>
             </div>
@@ -90,7 +90,18 @@
             <img src="../assets/Icons/macbook.png" alt="" />
 
           </div>
+
         </div>
+
+          <div class="flex">
+            <div class="w-36">
+              <img src="../assets/Payz.png" alt="">
+
+
+
+            </div>
+          </div>
+
 
 
       </div>
