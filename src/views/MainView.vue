@@ -1,6 +1,6 @@
 <template>
-  <main>
-    <div style="background: #F8F9F9">
+  <main style="background: #F8F9F9">
+    <div>
       <div class="bg-blue-400 main-height__blue relative">
         <div class="flex relative bg-blue-400 text-white justify-center">
           <p class="flex main-text__shadow text-5xl text-center">
@@ -30,7 +30,7 @@
         <img class="absolute main-img" src="../assets/Icons/card.svg" alt="" />
       </div>
     </div>
-    <div style="background: #F8F9F9" class="flex flex-col justify-center items-center text-center">
+    <div class="flex flex-col justify-center items-center text-center">
       <h3 class="flex mt-56 justify-center items-center font-bold text-4xl">О нас</h3>
 
       <p class="mx-4 mt-7 text-sm " style="background: #F8F9F9">
@@ -43,7 +43,7 @@
         совершенствование применяемых технологий.
       </p>
     </div>
-    <div style="background: #F8F9F9" class="pt-28">
+    <div class="pt-28">
       <div>
         <h1 class="flex  justify-center items-center font-bold text-4xl">Проекты</h1>
 
@@ -89,41 +89,152 @@
             <img src="../assets/Icons/macbook.png" alt="" />
 
           </div>
+
         </div>
 
 
       </div>
     </div>
-
-  <div class="bg-stone-50 m">
-    <div class="flex justify-center my-10 ">
-      <img src="../assets/Icons/Frame%2055406.png" alt="">
-    </div>
-
-    <div class=" flex justify-around  ">
-      <div>
-        <img class="ml-20" src="../assets/Icons/arhat.png" alt="">
-      </div>
-      <div>
-        <h1 class="ss">Партнеры</h1>
-        <img class="mt-20 mr-20" src="../assets/Icons/Kapitalbank-Logo_Bl.png" alt="">
-      </div>
-
-    </div>
-    <h5 class="flex justify-center">Сертификаты</h5>
-    <div class="flex justify-around">
-      <img src="../assets/Icons/sertificate.png" alt="">
-      <img src="../assets/Icons/sertificate.png" alt="">
-
-    </div>
-
-
-
-
-
-
-  </div>
   </main>
+
+
+  <section style="background: #F8F9F9" class="flex flex-col justify-center items-center">
+
+    <!--  fayz card start-->
+    <div style="background: #FFffff" class="flex rounded-lg w-4/5 justify-between items-center p-10">
+      <div class="flex-col items-start ">
+        <img class="w-14" src="../assets/Pays.png" alt="">
+
+        <h1 class="text-2xl font-bold mt-4">Платежная система</h1>
+        <p class="mt-4 text-sm">Новое слово на ранке Платежных инструментов с заманчивой системой <br>
+          лояльности и
+          незабываемым
+          клиентским
+          опытом.
+        </p>
+      </div>
+      <div>
+        <img class="" src="../assets/iphone-12-pro--gold.png" alt="">
+
+      </div>
+    </div>
+
+    <!--  fayz card end-->
+
+    <div class="flex justify-center mt-8 text-4xl font-bold">
+      <h1>Партнеры</h1>
+    </div>
+    <div class="flex items-center justify-center">
+      <img src="../assets/arhat.png" alt="">
+      <img src="../assets/kapital-bank.png" alt="">
+    </div>
+    <div class="flex justify-center text-4xl font-bold">
+      <h1 class="flex justify-center mt-24">Сертификаты</h1>
+
+      <!--<div class="flex items-center  mt-16  ml-38 mr-52"><h1>Халальный бизнес</h1></div>-->
+    </div>
+
+    <!--    card start-->
+    <div class="flex justify-center pt-8" style="background: #F8F9F9">
+      <div style="background: #FFffff;" class="flex items-center mr-4 rounded-xl pl-8">
+
+        <div>
+          <div class="font-bold text-2xl">
+            <div class="whitespace-nowrap">Халальный бизнес</div>
+
+          </div>
+          <p class="text-sm w-40 mt-4">
+            Schedule daily, weekly, or custom email reports that deliver on your schedule. Add recipients to
+            make
+            sure your team stays updated.
+          </p>
+        </div>
+        <img src="../assets/Sertificat-1.png" alt="">
+
+      </div>
+
+      <div style="background: #FFffff;" class="flex items-center rounded-xl pl-8">
+
+        <div>
+          <div class="font-bold text-2xl">
+            <div class="whitespace-nowrap">Халальный бизнес</div>
+
+          </div>
+          <p class="text-sm w-40 mt-4">
+            Schedule daily, weekly, or custom email reports that deliver on your schedule. Add recipients to
+            make
+            sure your team stays updated.
+          </p>
+        </div>
+        <img src="../assets/Sertificat-1.png" alt="">
+
+      </div>
+
+    </div>
+
+
+    <div class="flex items-center mt-16">
+      <div class="ml-16 m-20 flex-col space-y-4">
+        <h1 class="flex font-bold text-4xl">Карьера в Solution Lab</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suspendisse tincidunt non <br> diam amet
+          porttitor in nam diam. Aenean eu, quam potenti amet, duis. Vel massa amet tellus tincidunt condimentum
+          maecenas leo semper. <br> Tempus odio a mattis nec, suspendisse. Ultrices mauris, feugiat enim eget sapien, at
+          eu varius nullam.</p>
+        <div class="flex mt-6 w-40 h-14">
+          <button class="bg-sky-300 text-white flex items-center px-4 py-2" style="border-radius: 42px">
+            <span class="">Подробнее</span>
+            <div class="bg-white ml-2 flex justify-center items-center  rounded-full w-4 p-1">
+              <img src="../assets/arrow-left.svg" alt="">
+            </div>
+          </button>
+        </div>
+      </div>
+      <div>
+        <img src="../assets/adver.png" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  <!--    card end-->
+
+  <!--FOOTER-START-->
+  <footer class="flex justify-start px-14" style="background: #F8F9F9">
+    <div class="text-left w-72">
+      <h1 class="flex text-xl	font-bold whitespace-nowrap items-start">SOLUTIONS LAB <p
+        class="text-blue-400 font-bold">:</p></h1>
+      <p>г. Ташкент, Шайхонтохурский район, массив
+        лабзак, улица А.Кодирий, дом 33
+      </p>
+    </div>
+    <div class="flex w-20 flex-col items-start ml-16">
+      <h1 class="font-bold text-base">Company</h1>
+      <p>About</p>
+      <p>Careers</p>
+      <p>Mobile</p>
+    </div>
+    <div class="flex w-20 flex-col items-center ml-16">
+      <h1 class="font-bold text-base">Contact</h1>
+      <p>About</p>
+      <p>Careers</p>
+      <p>Mobile</p>
+    </div>
+    <div class="flex text-left w-24 flex-col items-start ml-16">
+      <h1 class="font-bold text-base">More</h1>
+      <p>Airline fees</p>
+      <p>Airlines</p>
+      <p>Low fare tips</p>
+    </div>
+
+  </footer>
+  <!--  <div class="flex justify-center">-->
+  <!--    <h1>company</h1>-->
+
+  <!--  </div>-->
+
+
+  <!--  FOTTER-END-->
+
 </template>
 <script setup></script>
 
