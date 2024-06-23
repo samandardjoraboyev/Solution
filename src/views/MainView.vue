@@ -27,12 +27,11 @@
 
           </div>
         </div>
-        <!--        <img class="absolute main-img" src="../assets/Icons/card.svg" alt="" />-->
+        <img class="absolute main-img" src="../assets/Icons/card.svg" alt="" />
       </div>
     </div>
     <div style="background: #F8F9F9" class="flex flex-col justify-center items-center text-center">
       <h3 class="flex mt-56 justify-center items-center font-bold text-4xl">О нас</h3>
-
 
       <p class="mx-4 mt-7 text-sm " style="background: #F8F9F9">
         Компания Solutions Lab зарекомендовала себя как опытный ИТ-интегратор и надежный партнер в
@@ -96,10 +95,34 @@
       </div>
     </div>
 
+  <div class="bg-stone-50 m">
     <div class="flex justify-center my-10 ">
       <img src="../assets/Icons/Frame%2055406.png" alt="">
     </div>
 
+    <div class=" flex justify-around  ">
+      <div>
+        <img class="ml-20" src="../assets/Icons/arhat.png" alt="">
+      </div>
+      <div>
+        <h1 class="ss">Партнеры</h1>
+        <img class="mt-20 mr-20" src="../assets/Icons/Kapitalbank-Logo_Bl.png" alt="">
+      </div>
+
+    </div>
+    <h5 class="flex justify-center">Сертификаты</h5>
+    <div class="flex justify-around">
+      <img src="../assets/Icons/sertificate.png" alt="">
+      <img src="../assets/Icons/sertificate.png" alt="">
+
+    </div>
+
+
+
+
+
+
+  </div>
   </main>
 </template>
 <script setup></script>
@@ -119,4 +142,20 @@
 
     transform: translate(-50%, -50%);
   }
+  .ss{
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    width: 191px;
+    height: 48px;
+    top: 2375px;
+    left: 624px;
+    gap: 0px;
+
+
+  }
+
 </style>
