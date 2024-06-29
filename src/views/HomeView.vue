@@ -10,6 +10,8 @@
           <li class="mr-3"><a href="">Проекты</a></li>
           <li class="mr-3"><a href="">Партнеры</a></li>
           <li class="mr-3"><a href="">Сертификаты</a></li>
+          <li class="mr-3"><router-link to="/vacancy">Вакансии  </router-link></li>
+
           <li>
 
             <label class="text-black">
