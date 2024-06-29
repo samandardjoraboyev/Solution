@@ -1,6 +1,13 @@
 <template>
+<div class="bg-blue-400">
+  <h1 class="text-white text-4xl">Вакансии</h1>
+  <p class="text-white">Главная</p>
 
-  <h1>bu user page</h1>
+  <img src="../assets/Icons/right-arrow.svg" alt="">
+  <p class="text-white">Вакансии</p>
+
+</div>
+
   
 </template>
 
