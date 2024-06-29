@@ -100,7 +100,7 @@
 
   <section style="background: #F8F9F9" class="flex flex-col justify-center items-center">
 
-    <!--  fayz card start-->
+    <!--  payz card start-->
     <div style="background: #FFffff" class="flex rounded-lg w-4/5 justify-between items-center p-10">
       <div class="flex-col items-start ">
         <img class="w-14" src="../assets/Pays.png" alt="">
@@ -119,7 +119,7 @@
       </div>
     </div>
 
-    <!--  fayz card end-->
+    <!--  payz card end-->
 
     <div class="flex justify-center mt-8 text-4xl font-bold">
       <h1>Партнеры</h1>
@@ -199,27 +199,27 @@
   <!--    card end-->
 
   <!--FOOTER-START-->
-  <footer class="flex justify-start px-14" style="background: #F8F9F9">
+  <footer class="flex justify-around" style="background: #F8F9F9">
     <div class="text-left w-72">
-      <h1 class="flex text-xl	font-bold whitespace-nowrap items-start">SOLUTIONS LAB <p
+      <h1 class="flex text-xl	font-bold whitespace-nowrap items-center">SOLUTIONS LAB <p
         class="text-blue-400 font-bold">:</p></h1>
       <p>г. Ташкент, Шайхонтохурский район, массив
         лабзак, улица А.Кодирий, дом 33
       </p>
     </div>
-    <div class="flex w-20 flex-col items-start ml-16">
+    <div class="flex w-20 flex-col items-start">
       <h1 class="font-bold text-base">Company</h1>
       <p>About</p>
       <p>Careers</p>
       <p>Mobile</p>
     </div>
-    <div class="flex w-20 flex-col items-center ml-16">
+    <div class="flex w-20 flex-col items-center">
       <h1 class="font-bold text-base">Contact</h1>
       <p>About</p>
       <p>Careers</p>
       <p>Mobile</p>
     </div>
-    <div class="flex text-left w-24 flex-col items-start ml-16">
+    <div class="flex text-left w-24 flex-col items-start">
       <h1 class="font-bold text-base">More</h1>
       <p>Airline fees</p>
       <p>Airlines</p>

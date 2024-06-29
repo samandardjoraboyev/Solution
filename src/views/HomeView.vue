@@ -5,11 +5,11 @@
         SOLUTIONS LAB:
       </div>
       <div class="text-white">
-        <ul class=" flex flex-row ">
-          <li class="mr-3"><a href="">О нас</a></li>
-          <li class="mr-3"><a href="">Проекты</a></li>
-          <li class="mr-3"><a href="">Партнеры</a></li>
-          <li class="mr-3"><a href="">Сертификаты</a></li>
+        <ul class="flex flex-row ">
+          <li v-for="item in items" class="mr-3">
+            <router-link :to="item.path">{{item.name}}</router-link>
+          </li>
+
           <li>
 
             <label class="text-black">
@@ -33,7 +33,6 @@
   </main>
 
 
-
 </template>
 
 <script setup>
@@ -41,6 +40,32 @@
 import { ref } from 'vue'
 
 const selectLanguage = ref(0)
+
+const items = ref(
+  [
+    {
+      name: 'О нас',
+      path: 'home'
+
+    },
+    {
+      name: 'Sertificats',
+      path: 'Sertificats'
+
+    },
+    {
+      name: 'Partner',
+      path: 'Partner'
+
+    },
+    {
+      name: 'Vacancy',
+      path: 'Vacancy'
+
+    }
+
+  ]
+)
 </script>
 
 <style>
