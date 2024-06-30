@@ -1,7 +1,7 @@
 <template>
   <main style="background: #F8F9F9">
     <div>
-      <div class="bg-blue-400 main-height__blue relative">
+        <div class=" main-height__blue relative">
         <div class="flex relative bg-blue-400 text-white justify-center">
           <p class="flex main-text__shadow text-5xl text-center">
             Инновации, кадры, креатив - <br />основы нашего успеха!
@@ -12,11 +12,11 @@
           <img class="right-40 absolute" src="../assets/Icons/Line.svg" alt="" />
         </div>
         <div>
-          <p class="flex bg-blue-400 justify-center text-center text-white m-4">
+          <p class="flex bg-blue-400 justify-center text-center text-white">
             Мы постараемся удовлетворить все ваши требования в финтех <br />
             и е-коммерс отраслях
           </p>
-          <div class="flex flex-col items-center bg-blue-400 justify-center">
+          <div class="flex flex-col items-center bg-blue-400 justify-center m-4">
             <button onclick="btn" class="bg-white flex justify-center rounded-3xl p-3">
               <div class="mr-2">Cвязаться</div>
             </button>
