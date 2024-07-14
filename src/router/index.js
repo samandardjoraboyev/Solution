@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MainView  from '../views/MainView.vue'
+import DesignerView  from '../views/DesignerView.vue'
 
 
 const router = createRouter({
@@ -35,6 +36,23 @@ const router = createRouter({
           // which is lazy-loaded when the route is visited.
           component: () => import('../views/VacancyView.vue')
         },
+        {
+          path: '/single',
+          name: 'SingleVacancy',
+          // route level code-splitting
+          // this generates a separate chunk (About.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import('../views/SingleVacancy.vue')
+        },
+        {
+          path: '/designer',
+          name: 'Designer',
+          // route level code-splitting
+          // this generates a separate chunk (About.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import('../views/DesignerView.vue')
+        },
+
 
 
       ]

@@ -1,8 +1,8 @@
 <template>
   <main style="background: #F8F9F9">
     <div>
-      <div class="bg-blue-400 main-height__blue relative">
-        <div class="flex relative bg-blue-400 text-white justify-center">
+      <div class=" main-height__blue bg-blue-400 relative">
+        <div class="flex relative  text-white justify-center">
           <p class="flex main-text__shadow text-5xl text-center">
             Инновации, кадры, креатив - <br />основы нашего успеха!
           </p>
@@ -12,7 +12,7 @@
           <img class="right-40 absolute" src="../assets/Icons/Line.svg" alt="" />
         </div>
         <div>
-          <p class="flex bg-blue-400 justify-center text-center text-white m-4">
+          <p class="flex bg-blue-400 justify-center text-center text-white">
             Мы постараемся удовлетворить все ваши требования в финтех <br />
             и е-коммерс отраслях
           </p>
@@ -195,44 +195,19 @@
 
   </section>
 
-  <!--    card end-->
+  card end
 
-  <!--FOOTER-START-->
-  <footer class="flex justify-around" style="background: #F8F9F9">
-    <div class="text-left w-72">
-      <h1 class="flex text-xl	font-bold whitespace-nowrap items-center">SOLUTIONS LAB <p
-        class="text-blue-400 font-bold">:</p></h1>
-      <p>г. Ташкент, Шайхонтохурский район, массив
-        лабзак, улица А.Кодирий, дом 33
-      </p>
-    </div>
-    <div class="flex w-20 flex-col items-start">
-      <h1 class="font-bold text-base">Company</h1>
-      <p>About</p>
-      <p>Careers</p>
-      <p>Mobile</p>
-    </div>
-    <div class="flex w-20 flex-col items-center">
-      <h1 class="font-bold text-base">Contact</h1>
-      <p>About</p>
-      <p>Careers</p>
-      <p>Mobile</p>
-    </div>
-    <div class="flex text-left w-24 flex-col items-start">
-      <h1 class="font-bold text-base">More</h1>
-      <p>Airline fees</p>
-      <p>Airlines</p>
-      <p>Low fare tips</p>
-    </div>
+  FOOTER-START
+  <div class="flex justify-center list-none">
+    <h1>company</h1>
+    <li>About</li>
+    <li>Careers</li>
+    <li>Mobile</li>
 
-  </footer>
-  <!--  <div class="flex justify-center">-->
-  <!--    <h1>company</h1>-->
-
-  <!--  </div>-->
+  </div>
 
 
-  <!--  FOTTER-END-->
+  FOTTER-END
 
 </template>
 <script setup></script>
@@ -252,7 +227,8 @@
 
     transform: translate(-50%, -50%);
   }
-  .ss{
+
+  .ss {
     font-family: Gilroy;
     font-size: 40px;
     font-weight: 700;
