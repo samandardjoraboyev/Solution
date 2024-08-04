@@ -1,5 +1,6 @@
 <template>
   <main style="background: #F8F9F9">
+
     <div>
       <div class=" main-height__blue bg-blue-400 relative">
         <div class="flex relative  text-white justify-center">
@@ -7,9 +8,9 @@
             Инновации, кадры, креатив - <br />основы нашего успеха!
           </p>
 
-          <img class="left-10 absolute" src="../assets/Icons/Line.svg" alt="" />
-          <img class="left-80 top-20 absolute" src="../assets/Icons/Line.svg" alt="" />
-          <img class="right-40 absolute" src="../assets/Icons/Line.svg" alt="" />
+          <img alt="" class="left-10 absolute" src="../assets/Icons/Line.svg" />
+          <img alt="" class="left-80 top-20 absolute" src="../assets/Icons/Line.svg" />
+          <img alt="" class="right-40 absolute" src="../assets/Icons/Line.svg" />
         </div>
         <div>
           <p class="flex bg-blue-400 justify-center text-center text-white">
@@ -17,11 +18,11 @@
             и е-коммерс отраслях
           </p>
           <div class="flex flex-col items-center bg-blue-400 justify-center">
-            <button onclick="btn" class="bg-white flex justify-center rounded-3xl p-3">
+            <button class="bg-white flex justify-center rounded-3xl p-3" onclick="btn">
               <div class="mr-2">Cвязаться</div>
             </button>
             <div class="absolute left-42 top-60">
-              <img src="../assets/m.png" alt="">
+              <img alt="" src="../assets/m.png">
 
             </div>
 
@@ -50,7 +51,7 @@
         <div class="flex justify-center">
           <div class="flex m-10 items-center">
             <div>
-              <img class="ml-10" src="../assets/Icons/paymart.png" alt="" />
+              <img alt="" class="ml-10" src="../assets/Icons/paymart.png" />
 
               <p class="text-2xl font-bold mt-10 mr-9">Cистема рассрочки</p>
               <p class="flex mt-4">
@@ -62,16 +63,16 @@
 
               <div class="rounded-full w-12 p-4 bg-slate-50 flex justify-start items-center">
 
-                <img class="bg-sky-100" src="../assets/Icons/arrow.svg" alt="">
+                <img alt="" class="bg-sky-100" src="../assets/Icons/arrow.svg">
               </div>
             </div>
-            <img src="../assets/Icons/macbook.png" alt="" />
+            <img alt="" src="../assets/Icons/macbook.png" />
 
           </div>
 
           <div class="flex m-10 items-center">
             <div>
-              <img class="ml-10" src="../assets/Icons/paymart.png" alt="" />
+              <img alt="" class="ml-10" src="../assets/Icons/paymart.png" />
 
               <p class="text-2xl font-bold mt-10 mr-9">Маркетплейс товаров</p>
               <p class="flex mt-4">
@@ -82,10 +83,10 @@
               </p>
 
               <div class="rounded-full w-12 p-4 bg-slate-50 flex justify-start items-center">
-                <img class="" src="../assets/Icons/arrow.svg" alt="">
+                <img alt="" class="" src="../assets/Icons/arrow.svg">
               </div>
             </div>
-            <img src="../assets/Icons/macbook.png" alt="" />
+            <img alt="" src="../assets/Icons/macbook.png" />
 
           </div>
 
@@ -97,12 +98,12 @@
   </main>
 
 
-  <section style="background: #F8F9F9" class="flex flex-col justify-center items-center">
+  <section class="flex flex-col justify-center items-center" style="background: #F8F9F9">
 
     <!--  payz card start-->
-    <div style="background: #FFffff" class="flex rounded-lg w-4/5 justify-between items-center p-10">
+    <div class="flex rounded-lg w-4/5 justify-between items-center p-10" style="background: #FFffff">
       <div class="flex-col items-start ">
-        <img class="w-14" src="../assets/Pays.png" alt="">
+        <img alt="" class="w-14" src="../assets/Pays.png">
 
         <h1 class="text-2xl font-bold mt-4">Платежная система</h1>
         <p class="mt-4 text-sm">Новое слово на ранке Платежных инструментов с заманчивой системой <br>
@@ -113,7 +114,7 @@
         </p>
       </div>
       <div>
-        <img class="" src="../assets/iphone-12-pro--gold.png" alt="">
+        <img alt="" class="" src="../assets/iphone-12-pro--gold.png">
 
       </div>
     </div>
@@ -124,8 +125,8 @@
       <h1>Партнеры</h1>
     </div>
     <div class="flex items-center justify-center">
-      <img src="../assets/arhat.png" alt="">
-      <img src="../assets/kapital-bank.png" alt="">
+      <img alt="" src="../assets/arhat.png">
+      <img alt="" src="../assets/kapital-bank.png">
     </div>
     <div class="flex justify-center text-4xl font-bold">
       <h1 class="flex justify-center mt-24">Сертификаты</h1>
@@ -135,7 +136,7 @@
 
     <!--    card start-->
     <div class="flex justify-center pt-8" style="background: #F8F9F9">
-      <div style="background: #FFffff;" class="flex items-center mr-4 rounded-xl pl-8">
+      <div class="flex items-center mr-4 rounded-xl pl-8" style="background: #FFffff;">
 
         <div>
           <div class="font-bold text-2xl">
@@ -148,11 +149,11 @@
             sure your team stays updated.
           </p>
         </div>
-        <img src="../assets/Sertificat-1.png" alt="">
+        <img alt="" src="../assets/Sertificat-1.png">
 
       </div>
 
-      <div style="background: #FFffff;" class="flex items-center rounded-xl pl-8">
+      <div class="flex items-center rounded-xl pl-8" style="background: #FFffff;">
 
         <div>
           <div class="font-bold text-2xl">
@@ -165,7 +166,7 @@
             sure your team stays updated.
           </p>
         </div>
-        <img src="../assets/Sertificat-1.png" alt="">
+        <img alt="" src="../assets/Sertificat-1.png">
 
       </div>
 
@@ -183,31 +184,20 @@
           <button class="bg-sky-300 text-white flex items-center px-4 py-2" style="border-radius: 42px">
             <span class="">Подробнее</span>
             <div class="bg-white ml-2 flex justify-center items-center  rounded-full w-4 p-1">
-              <img src="../assets/arrow-left.svg" alt="">
+              <img alt="" src="../assets/arrow-left.svg">
             </div>
           </button>
         </div>
       </div>
       <div>
-        <img src="../assets/adver.png" alt="">
+        <img alt="" src="../assets/adver.png">
       </div>
     </div>
 
   </section>
 
-  card end
-
-  FOOTER-START
-  <div class="flex justify-center list-none">
-    <h1>company</h1>
-    <li>About</li>
-    <li>Careers</li>
-    <li>Mobile</li>
-
-  </div>
 
 
-  FOTTER-END
 
 </template>
 <script setup></script>
